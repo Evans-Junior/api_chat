@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS messageapp;
+CREATE DATABASE IF NOT EXISTS messageapp;
+USE messageapp;
+
+
+CREATE TABLE messages (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    sender_name VARCHAR(255) NOT NULL,
+    receiver_name VARCHAR(255) NOT NULL,
+    message TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
