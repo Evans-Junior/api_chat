@@ -9,7 +9,7 @@ function checkLogin() {
     // Check if user ID session exists
     if (!isset($_SESSION['user_id'])) {
         // If it doesn't exist, redirect to login_view page
-        header("Location: ../view/receivers.php");
+        header("Location: ../view/farmer.php");
         // Terminate script execution after redirection
         die();
     } else {

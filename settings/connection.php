@@ -1,7 +1,7 @@
 <?php
 // Define constants to store the database connection parameters
 $SERVER= 'localhost';
-$USERNAME= 'root';
+$USERNAME= 'root@localhost';
 $PASSWORD= '';
 $DATABASE='messageapp';
 
