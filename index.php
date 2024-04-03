@@ -1,3 +1,3 @@
 <?php
-    header("Location: settings/core.php");
+    header("Location: view/farmer.php");
 ?>
