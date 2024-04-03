@@ -1,3 +1,7 @@
+# Members
+- Evans Kumi
+- Emmanuel Soumahoro
+
 # Message Application
 
 This is a simple web application for sending and receiving messages between producers and farmers.
